@@ -1,9 +1,21 @@
 # Love_calculator
 I know she does not think about you at all , still give it a try .
+print ('''   _______________                        |*\_/*|________
+  |  ___________  |     .-.     .-.      ||_/-\_|______  |
+  | |           | |    .****. .****.     | |           | |
+  | |   0   0   | |    .*****.*****.     | |   0   0   | |
+  | |     -     | |     .*********.      | |     -     | |
+  | |   \___/   | |      .*******.       | |   \___/   | |
+  | |___     ___| |       .*****.        | |___________| |
+  |_____|\_/|_____|        .***.         |_______________|
+    _|__|/ \|_|_.............*.............._|________|_
+   / ********** \                          / ********** \
+ /  ************  \                      /  ************  \
+--------------------                    --------------------''')
 
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
-name2 = input("What is their name? \n"
+name2 = input("What is their name? \n")
 combined_string  = name1 + name2
 lower_case_name = combined_string.lower()
 t = lower_case_name.count("t")
@@ -23,4 +35,3 @@ elif love_score>40 and love_score<50:
     print(f"Your score is {love_score}, you are alright together.")
 else:
     print(f"Your score is {love_score}.")
-
